@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<toolbox>
+	<tool>
+		<key>import</key>
+		<scope>request</scope>
+		<class>org.apache.velocity.tools.view.tools.ImportTool</class>
+	</tool>
+	<tool>
+		<key>dateTool</key>
+		<scope>application</scope>
+		<class>org.apache.velocity.tools.generic.DateTool</class>
+		<parameter name="format" value="yyyy-MM-dd HH:mm:ss" />
+	</tool>
+	<tool>
+		<key>numberTool</key>
+		<scope>application</scope>
+		<class>org.apache.velocity.tools.generic.NumberTool</class>
+		<parameter name="format" value="0.00" />
+	</tool>
+	<tool>
+		<key>decodeSpTool</key>
+		<scope>application</scope>
+		<class>com.myes.nbadata.util.StringUtil</class>
+		<parameter name="decodeSpTool" />
+	</tool>
+		
+</toolbox>
